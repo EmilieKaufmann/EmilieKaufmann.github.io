@@ -1,0 +1,206 @@
+p
+{
+	font-size: 18px;
+}
+a
+{
+	color: black;
+}
+
+
+body
+{
+	width: 100 %;
+	margin: auto; /* Pour centrer notre page */
+	margin-top: 0px; /* Pour Ã©viter de coller avec le haut de la fenÃªtre du navigateur. Essayez d'enlever pour voir ! */
+	margin-bottom: 20px;    /* Idem pour le bas du navigateur */
+	background-image: url("images/fond.png"); /* Une petite image de fond pour Ã©viter d'avoir un vieux fond blanc :p */
+}
+
+#logo
+{
+   color: black;
+   position:fixed;
+   right:11em;
+   left:1em;
+   top:2em;
+   /*height:9em;*/
+   /*width: 10em*/
+   /*margin: 5px;*/
+}
+
+#corner
+{
+    color:#black;
+    position:fixed;
+    right:12em;
+    left:0em;
+    top:0em;
+    height:9em;
+	z-index:10;
+}
+
+
+#header
+{
+    background-color: #AE2573; /* personalize color */
+	color:#black;
+    position:fixed;
+    right:0em;
+    left:12em;
+    top:0em;
+    height:9em;
+	z-index:10;
+}
+
+
+#header_left
+{
+    position:fixed;
+    left:13em;
+    margin:10px;
+}
+
+#header_right
+{
+    position:fixed;
+    right:2em;
+    margin:0em;
+}
+
+
+
+/* Le menu */
+
+#menu
+{
+    position:fixed;
+    top:9em;
+    left:0em;
+    bottom:0em;
+    width:11em;
+    padding:1em 1em 1em 0em;
+    background-color: #AE2573; /* personalize color */
+    margin: 0px;
+    text-decoration: none;
+
+}
+
+#menurecherche
+{
+	position:fixed;
+	background-color: white;
+    top:9em;
+    right:0em;
+	left:13em;
+	border-bottom: 2px solid #948979; 
+	text-transform:uppercase;	
+	margin:0px;
+	text-align:right;
+	z-index:10;
+}
+
+
+
+#menurecherche li {
+	display:inline;
+	padding:.35em 1em .3em 1em;	
+    margin:0em 0em 1em 0em;
+	border-right: 2px solid #948979;	
+}
+
+
+
+
+.element_menu
+{
+   margin:20px;
+}
+
+/* Quelques effets sur les menus */
+
+.element_menu h3
+{    
+   font-family: Arial, "Arial Black", "Times New Roman", Times, serif;
+   text-align: left;
+   text-decoration: underline;
+}
+
+.element_menu p
+{
+  text-align: right;
+}
+
+
+.element_menu a:hover /* Quand on pointe sur un lien du menu */
+{
+   background-color: white;
+   color: black ;
+}
+
+
+#corps
+{
+    position:absolute;
+    right:0em;
+    left:12em;
+    top:9em;
+    padding:1em 1em 1em 0em;
+    margin-top: 5px;
+    margin-left:2em;
+	min-width:400px;
+	z-index:0;
+}
+
+#corpsrech
+{
+    position:absolute;
+    right:0em;
+    left:12em;
+    top:11em;
+    padding:0em 1em 1em 0em;
+    margin-top: 50px;
+    margin-left:2em;
+	min-width:400px;
+	z-index:0;
+}
+
+#section
+{
+    position:absolute;
+    right:6em;
+    left:12em;
+    top:9em;
+    padding:1em 1em 1em 0em;
+    margin-top: 5px;
+    margin-left:2em;
+	z-index:0;
+}
+
+
+#section .img {
+  width:100%;
+  text-align:center;
+  position:center;
+  background-color:red;
+  margin:auto;
+}
+
+table 
+{
+    border-collapse : collapse; 
+    border-spacing : 100 px; 
+}
+
+td
+{
+    vertical-align: top;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.date
+{
+   color: black;
+   font-weight: bold;
+   text-align: left;
+}
